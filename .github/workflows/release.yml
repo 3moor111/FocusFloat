@@ -1,0 +1,27 @@
+# Publishes a GitHub Release with the APK whenever a version tag (e.g. v3.8) is pushed.
+# Needs download/FocusFloat-<version>.apk and release-notes/v<version>.md in the tagged commit.
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          VERSION="${TAG#v}"
+          APK="download/FocusFloat-${VERSION}.apk"
+          NOTES="release-notes/${TAG}.md"
+          test -f "$APK" || { echo "Missing $APK"; exit 1; }
+          test -f "$NOTES" || { echo "Missing $NOTES"; exit 1; }
+          gh release create "$TAG" "$APK" --title "FocusFloat ${VERSION}" --notes-file "$NOTES" --latest
