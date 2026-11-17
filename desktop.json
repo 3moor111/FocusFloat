@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "windows": "https://github.com/3moor111/FocusFloat/releases/download/desktop-v1.0.0/FocusFloat-1.0.0.msi",
+  "mac": "https://github.com/3moor111/FocusFloat/releases/download/desktop-v1.0.0/FocusFloat-1.0.0-apple-silicon.dmg",
+  "notes": "The first version of FocusFloat for Windows and Mac."
+}
