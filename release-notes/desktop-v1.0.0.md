@@ -11,7 +11,7 @@
 ### Download
 - **Windows 10 or 11:** `FocusFloat-1.0.0.msi`
 - **Mac with Apple silicon (M1 and newer):** `FocusFloat-1.0.0-apple-silicon.dmg`
-- **Mac with an Intel chip:** `FocusFloat-1.0.0-intel.dmg`
+- **Mac with an Intel chip:** coming soon
 
 The app isn't signed with a paid certificate yet. On Windows, click **More info › Run anyway** the first time. On a Mac, **right-click › Open** the first time. [Full steps](https://3moor111.github.io/FocusFloat/install.html#desktop)
 
