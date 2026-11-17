@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="FocusFloat: stay on the page">
+  <defs>
+    <radialGradient id="g" cx=".72" cy=".45" r=".8"><stop offset="0" stop-color="#2E2A66"/><stop offset=".6" stop-color="#17153A"/><stop offset="1" stop-color="#0E0D26"/></radialGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366F1"/><stop offset="1" stop-color="#4338CA"/></linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".45"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="30"/></filter>
+    <clipPath id="scr"><rect x="640" y="70" width="480" height="300" rx="20"/></clipPath>
+    <style>
+      .n{animation:n 6s cubic-bezier(.2,0,0,1) infinite;opacity:0}
+      @keyframes n{0%{opacity:0;transform:translateY(-40px)}12%,55%{opacity:1;transform:translateY(0)}70%,100%{opacity:0;transform:translateY(240px)}}
+      .pill{animation:bob 6s ease-in-out infinite}
+      @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      .hand{transform-origin:12px 13.5px;animation:hand 6s cubic-bezier(.2,.8,.2,1) infinite}
+      @keyframes hand{0%{transform:rotate(-200deg)}20%,100%{transform:rotate(0)}}
+      .ln{animation:ln 6s linear infinite}
+      @keyframes ln{0%{transform:translateY(0)}100%{transform:translateY(-60px)}}
+      @media (prefers-reduced-motion:reduce){.n,.pill,.hand,.ln{animation:none;opacity:1}}
+    </style>
+  </defs>
+  <rect width="1200" height="420" rx="32" fill="url(#g)"/>
+  <circle cx="880" cy="220" r="170" fill="#6366F1" opacity=".22" filter="url(#soft)"/>
+  <!-- logo + words -->
+  <g transform="translate(70 92)">
+    <rect width="76" height="76" rx="23" fill="url(#tile)"/>
+    <g transform="translate(13 12) scale(2.1)" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round">
+      <circle cx="12" cy="13.5" r="7.5"/><path d="M9.5 3H14.5"/><g class="hand"><path d="M12 13.5V9.5M12 13.5L15 15.5"/></g>
+    </g>
+  </g>
+  <text x="70" y="232" font-size="64" font-weight="800" fill="#fff" letter-spacing="-2.4">FocusFloat</text>
+  <text x="72" y="276" font-size="26" font-weight="500" fill="#C7D2FE">Stay on the page.</text>
+  <text x="72" y="330" font-size="16" fill="#9A9EB2">A focus timer that floats over your study material.</text>
+  <text x="72" y="354" font-size="16" fill="#9A9EB2">Free for Android · for every student</text>
+  <!-- tablet with page -->
+  <g filter="url(#sh)"><rect x="626" y="56" width="508" height="328" rx="30" fill="#1B1C26"/></g>
+  <rect x="640" y="70" width="480" height="300" rx="20" fill="#FBFBFD"/>
+  <g clip-path="url(#scr)">
+    <g class="ln">
+      <rect x="680" y="124" width="290" height="12" rx="4" fill="#12131A"/>
+      <rect x="680" y="150" width="400" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="172" width="380" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="194" width="360" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="216" width="395" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="238" width="300" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="260" width="390" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="282" width="370" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="304" width="340" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="326" width="385" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="348" width="320" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="370" width="400" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="392" width="350" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="414" width="400" height="7" rx="3.5" fill="#D9DBE4"/><rect x="680" y="436" width="380" height="7" rx="3.5" fill="#D9DBE4"/>
+    </g>
+    <rect x="640" y="70" width="480" height="30" fill="#F1F2F6"/>
+    <rect x="660" y="81" width="150" height="8" rx="4" fill="#C7CBD6"/>
+    
+    <g class="n" style="animation-delay:0s">
+      <rect x="700" y="150" width="360" height="50" rx="16" fill="#fff" opacity=".96"/>
+      <rect x="714" y="161" width="28" height="28" rx="9" fill="#EC4899"/>
+      <text x="754" y="181" font-size="15" font-weight="600" fill="#12131A">Social · Someone liked your photo</text>
+    </g>
+    <g class="n" style="animation-delay:0.8s">
+      <rect x="700" y="212" width="360" height="50" rx="16" fill="#fff" opacity=".96"/>
+      <rect x="714" y="223" width="28" height="28" rx="9" fill="#0EA5E9"/>
+      <text x="754" y="243" font-size="15" font-weight="600" fill="#12131A">Video · Because you watched…</text>
+    </g>
+    <g class="n" style="animation-delay:1.6s">
+      <rect x="700" y="274" width="360" height="50" rx="16" fill="#fff" opacity=".96"/>
+      <rect x="714" y="285" width="28" height="28" rx="9" fill="#22C55E"/>
+      <text x="754" y="305" font-size="15" font-weight="600" fill="#12131A">Game · Your energy is full</text>
+    </g>
+  </g>
+  <!-- the pill -->
+  <g class="pill" filter="url(#sh)">
+    <rect x="964" y="112" width="132" height="44" rx="22" fill="#1C202C"/>
+    <circle cx="986" cy="134" r="6" fill="#818CF8"/>
+    <text x="1000" y="141" font-size="21" font-weight="700" fill="#fff">44:12</text>
+  </g>
+</svg>

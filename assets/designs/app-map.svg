@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Map of the FocusFloat app: Home, Progress, Focus, Study and More, plus the floating pill">
+  <style>@keyframes up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}} @media (prefers-reduced-motion:reduce){g{animation:none!important}}</style>
+  <rect width="1200" height="560" rx="32" fill="#F5F6FA"/>
+  <text x="56" y="70" font-size="13" font-weight="700" letter-spacing="2.4" fill="#5B6070">WHERE EVERYTHING LIVES</text>
+  <text x="56" y="110" font-size="32" font-weight="800" fill="#12131A" letter-spacing="-1">Five tabs, one floating pill.</text>
+  
+  <g style="animation:up .7s cubic-bezier(.2,0,0,1) 0.00s both">
+    <rect x="56" y="150" width="196" height="230" rx="22" fill="#fff"/>
+    <rect x="56" y="150" width="196" height="6" rx="3" fill="#EC4899"/>
+    <text x="76" y="190" font-size="19" font-weight="800" fill="#12131A">Home</text>
+    <text x="76" y="220" font-size="14.5" fill="#3B3F4C">Hero card: streak,</text><text x="76" y="245" font-size="14.5" fill="#3B3F4C">goal ring, Focus button</text><text x="76" y="270" font-size="14.5" fill="#3B3F4C">Up next</text><text x="76" y="295" font-size="14.5" fill="#3B3F4C">Tool tiles with live status</text><text x="76" y="320" font-size="14.5" fill="#3B3F4C">Study card</text><text x="76" y="345" font-size="14.5" fill="#3B3F4C">This week</text>
+  </g>
+  <g style="animation:up .7s cubic-bezier(.2,0,0,1) 0.08s both">
+    <rect x="270" y="150" width="196" height="230" rx="22" fill="#fff"/>
+    <rect x="270" y="150" width="196" height="6" rx="3" fill="#0EA5E9"/>
+    <text x="290" y="190" font-size="19" font-weight="800" fill="#12131A">Progress</text>
+    <text x="290" y="220" font-size="14.5" fill="#3B3F4C">Week bars</text><text x="290" y="245" font-size="14.5" fill="#3B3F4C">Heat grid</text><text x="290" y="270" font-size="14.5" fill="#3B3F4C">Recent session reports</text>
+  </g>
+  <g style="animation:up .7s cubic-bezier(.2,0,0,1) 0.16s both">
+    <rect x="484" y="150" width="196" height="230" rx="22" fill="#fff"/>
+    <rect x="484" y="150" width="196" height="6" rx="3" fill="#6366F1"/>
+    <text x="504" y="190" font-size="19" font-weight="800" fill="#12131A">Focus</text>
+    <text x="504" y="220" font-size="14.5" fill="#3B3F4C">Floating timer</text><text x="504" y="245" font-size="14.5" fill="#3B3F4C">For a duration or</text><text x="504" y="270" font-size="14.5" fill="#3B3F4C">until a time</text><text x="504" y="295" font-size="14.5" fill="#3B3F4C">Block apps too</text><text x="504" y="320" font-size="14.5" fill="#3B3F4C">ScrollStop for</text><text x="504" y="345" font-size="14.5" fill="#3B3F4C">this session</text>
+  </g>
+  <g style="animation:up .7s cubic-bezier(.2,0,0,1) 0.24s both">
+    <rect x="698" y="150" width="196" height="230" rx="22" fill="#fff"/>
+    <rect x="698" y="150" width="196" height="6" rx="3" fill="#8B5CF6"/>
+    <text x="718" y="190" font-size="19" font-weight="800" fill="#12131A">Study</text>
+    <text x="718" y="220" font-size="14.5" fill="#3B3F4C">Review cards</text><text x="718" y="245" font-size="14.5" fill="#3B3F4C">Practice 5 MCQs</text><text x="718" y="270" font-size="14.5" fill="#3B3F4C">Inbox</text><text x="718" y="295" font-size="14.5" fill="#3B3F4C">Question bank</text><text x="718" y="320" font-size="14.5" fill="#3B3F4C">Second-guessing report</text>
+  </g>
+  <g style="animation:up .7s cubic-bezier(.2,0,0,1) 0.32s both">
+    <rect x="912" y="150" width="196" height="230" rx="22" fill="#fff"/>
+    <rect x="912" y="150" width="196" height="6" rx="3" fill="#F97316"/>
+    <text x="932" y="190" font-size="19" font-weight="800" fill="#12131A">More</text>
+    <text x="932" y="220" font-size="14.5" fill="#3B3F4C">App Blocker</text><text x="932" y="245" font-size="14.5" fill="#3B3F4C">ScrollStop</text><text x="932" y="270" font-size="14.5" fill="#3B3F4C">Schedules</text><text x="932" y="295" font-size="14.5" fill="#3B3F4C">Setup</text><text x="932" y="320" font-size="14.5" fill="#3B3F4C">Profile &amp; sync</text><text x="932" y="345" font-size="14.5" fill="#3B3F4C">Theme</text>
+  </g>
+  <rect x="56" y="398" width="1052" height="68" rx="34" fill="#fff" stroke="#E4E6EE"/>
+  <text x="154.0" y="438" text-anchor="middle" font-size="16" font-weight="700" fill="#3B3F4C">Home</text><line x1="154.0" y1="380" x2="154.0" y2="414" stroke="#EC4899" stroke-width="2" stroke-dasharray="4 5"/><text x="368.0" y="438" text-anchor="middle" font-size="16" font-weight="700" fill="#3B3F4C">Progress</text><line x1="368.0" y1="380" x2="368.0" y2="414" stroke="#0EA5E9" stroke-width="2" stroke-dasharray="4 5"/><circle cx="582.0" cy="432" r="34" fill="#4F46E5"/><g transform="translate(565.0 414) scale(1.45)" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 13.5V9.5M12 13.5L15 15.5M9.5 3H14.5"/></g><line x1="582.0" y1="380" x2="582.0" y2="398" stroke="#6366F1" stroke-width="2" stroke-dasharray="4 5"/><text x="796.0" y="438" text-anchor="middle" font-size="16" font-weight="700" fill="#3B3F4C">Study</text><line x1="796.0" y1="380" x2="796.0" y2="414" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="4 5"/><text x="1010.0" y="438" text-anchor="middle" font-size="16" font-weight="700" fill="#3B3F4C">More</text><line x1="1010.0" y1="380" x2="1010.0" y2="414" stroke="#F97316" stroke-width="2" stroke-dasharray="4 5"/>
+  <text x="56" y="514" font-size="15" fill="#5B6070">The floating pill, over any app:  pause · reset · open app · hide at edge · close  ·  + quick capture  ·  ☕ break  ·  drag to the bin to close</text>
+</svg>
