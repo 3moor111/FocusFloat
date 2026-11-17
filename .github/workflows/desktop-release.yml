@@ -1,0 +1,35 @@
+# Publishes FocusFloat for Windows and Mac as its own GitHub Release (tag desktop-v<version>).
+# Run it from the Actions tab (Desktop release › Run workflow › version, e.g. 1.0.0).
+# Needs in the repository: download/desktop/FocusFloat-<version>.msi,
+# FocusFloat-<version>-apple-silicon.dmg, FocusFloat-<version>-intel.dmg and
+# release-notes/desktop-v<version>.md. Then update desktop.json so the app offers it.
+name: Desktop release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Desktop version to release (e.g. 1.0.0)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.version }}
+        run: |
+          TAG="desktop-v${VERSION}"
+          NOTES="release-notes/${TAG}.md"
+          FILES=$(ls download/desktop/FocusFloat-${VERSION}*.msi download/desktop/FocusFloat-${VERSION}*.dmg 2>/dev/null || true)
+          test -n "$FILES" || { echo "No installers for ${VERSION} in download/desktop/"; exit 1; }
+          test -f "$NOTES" || { echo "Missing $NOTES"; exit 1; }
+          if gh release view "$TAG" >/dev/null 2>&1; then echo "$TAG is already released"; exit 0; fi
+          # --latest=false keeps the Android release as "latest", so the APK link never changes.
+          gh release create "$TAG" $FILES --target "$GITHUB_SHA" --title "FocusFloat for Windows and Mac ${VERSION}" --notes-file "$NOTES" --latest=false
