@@ -68,6 +68,12 @@ Click any picture to play that tool’s clip on the website.
   </tr>
 </table>
 
+## Updates come to you
+
+<a href="https://3moor111.github.io/FocusFloat/updates.html"><img src="assets/readme/update.jpg" alt="How an update arrives: Up next card, allow once, download and check, install, back to focus" width="100%"></a>
+
+From 3.9 on, a new version shows up as **Update available** in the app’s Up next. One tap downloads it, checks it, and opens Android’s installer. Your progress, cards and settings stay.
+
 ## Where everything lives
 
 <img src="assets/designs/app-map.svg" alt="Map of the app: Home, Progress, Focus, Study and More tabs, plus the floating pill" width="100%">
