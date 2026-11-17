@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://3moor111.github.io/FocusFloat/"><b>Website</b></a> ·
-  <a href="download/FocusFloat-3.8.apk"><b>Download the APK</b></a> ·
+  <a href="https://github.com/3moor111/FocusFloat/releases/latest/download/FocusFloat.apk"><b>Download the APK</b></a> ·
   <a href="https://3moor111.github.io/FocusFloat/tools.html">Every tool</a> ·
   <a href="https://3moor111.github.io/FocusFloat/install.html">Install</a> ·
   <a href="https://3moor111.github.io/FocusFloat/film.html">The film</a>
@@ -74,14 +74,16 @@ Click any picture to play that tool’s clip on the website.
 
 ## Get it
 
-1. Download **[FocusFloat 3.8](download/FocusFloat-3.8.apk)** (9.6 MB, Android 8.0 or newer) on your phone or tablet.
+1. Download **[FocusFloat](https://github.com/3moor111/FocusFloat/releases/latest/download/FocusFloat.apk)** (latest version, about 10 MB, Android 8.0 or newer) on your phone or tablet. Older versions are on the [releases page](https://github.com/3moor111/FocusFloat/releases).
 2. Open the file and allow your browser to install apps if Android asks.
 3. Open FocusFloat, create an account, and follow **Finish setup** to allow the permissions each tool needs.
+
+**Updates come to you** (3.9 and newer): a new version appears in the app’s Up next, and one tap installs it. You can also follow releases with [Obtainium](https://github.com/ImranR98/Obtainium) or GitHub’s Watch › Releases.
 
 Full steps, the permissions table and troubleshooting: **[Install guide](https://3moor111.github.io/FocusFloat/install.html)**.
 
 ```
-SHA-256  226f5bc5bdecf5334f4b0a3a6dc24f2db31804dfb729385732e94ac371e31ec8  FocusFloat-3.8.apk
+SHA-256  2b2c627164087400d71bc7621bbbd37b09bd6239389e96dd1aa47602df517322  FocusFloat-3.9.apk
 ```
 
 ## The film
@@ -99,7 +101,10 @@ This repository holds the public website (served by GitHub Pages), the downloada
 | Path | What it is |
 |---|---|
 | `index.html`, `tools.html`, `film.html`, `install.html`, `updates.html`, `privacy.html` | The website |
-| `download/` | Signed release APKs |
+| `download/` | The current signed APK (older ones are on the releases page) |
+| `version.json` | Read by the app to find out about new versions |
+| `release-notes/` | Notes for each GitHub release |
+| `.github/workflows/release.yml` | Publishes a release: Actions › Release › Run workflow |
 | `assets/video/` | The launch film (`focusfloat-film-small.mp4` is under 10 MB, for GitHub’s video uploader) |
 | `assets/clips/` | Short looping clips of each tool, used on the website |
 | `assets/designs/` | Animated SVG designs: banner, session flow, app map |
