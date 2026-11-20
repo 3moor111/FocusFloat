@@ -1,7 +1,7 @@
 {
-  "versionCode": 13,
-  "versionName": "3.9",
-  "apk": "https://github.com/3moor111/FocusFloat/releases/download/v3.9/FocusFloat-3.9.apk",
-  "sha256": "2b2c627164087400d71bc7621bbbd37b09bd6239389e96dd1aa47602df517322",
-  "notes": "Updates now come to you: when a new version is out, it appears in Up next on Home. You can also check any time in More › Check for updates."
+  "versionCode": 14,
+  "versionName": "4.0",
+  "apk": "https://github.com/3moor111/FocusFloat/releases/download/v4.0/FocusFloat-4.0.apk",
+  "sha256": "74a438010d33034c80c9c448ba8acae905822ce81cfa4b7992290e41e0656579",
+  "notes": "New: Reminders. Alarms for anything you must not forget, like your medicine, each with its own sound. Find them on Home."
 }
