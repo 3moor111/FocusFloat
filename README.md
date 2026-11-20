@@ -93,7 +93,7 @@ From 3.9 on, a new version shows up as **Update available** in the app’s Up ne
 Full steps, the permissions table and troubleshooting: **[Install guide](https://3moor111.github.io/FocusFloat/install.html)**.
 
 ```
-SHA-256  2b2c627164087400d71bc7621bbbd37b09bd6239389e96dd1aa47602df517322  FocusFloat-3.9.apk
+SHA-256  74a438010d33034c80c9c448ba8acae905822ce81cfa4b7992290e41e0656579  FocusFloat-4.0.apk
 ```
 
 ## The film
